@@ -10,14 +10,10 @@ This project is a KPI dashboard built using Streamlit and Plotly to visualize re
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Overview
 
-The dashboard is designed to help users explore and analyze retail sales data. Users can filter the data by date range, product category, and gender using the sidebar filters. The dashboard then updates the displayed KPIs and charts based on the selected criteria.
+The dashboard is designed to help users explore and analyze retail sales data. Users can filter the data by date range, product category, and gender using the sidebar filters. The dashboard then updates the KPIs and charts based on the selected criteria. Check out the live app here: [KPI Sales Dashboard](https://kpidashboardsales-sbfbu7qqxasv8bbcd9rjey.streamlit.app/)
 
 ## Features
 
@@ -30,7 +26,7 @@ The dashboard is designed to help users explore and analyze retail sales data. U
 - **Visualizations:**
   - **Sales Over Time:** A smooth line chart with markers showing monthly sales trends.
   - **Sales by Product Category:** A bar chart that displays the total sales for each product category using a “Blues” color scale.
-  - **Sales by Gender:** A pie chart that shows the distribution of sales between genders.
+  - **Sales by Gender:** A pie chart showing the sales distribution between genders.
 
 - **Sidebar Filters:**
   - Date range selection (start and end dates)
@@ -108,32 +104,4 @@ retail-sales-kpi-dashboard/
 └── requirements.txt         # Project dependencies (if available)
 ```
 
-## Customization
-
-- **Theme:**  
-  Customize the dark theme by editing the `.streamlit/config.toml` file. For example:
-
-  ```toml
-  [theme]
-  base="dark"
-  primaryColor="#ff4b4b"
-  backgroundColor="#0e1117"
-  secondaryBackgroundColor="#262730"
-  textColor="#ffffff"
-  ```
-
-- **Filters and KPIs:**  
-  You can modify the sidebar filters and KPI metrics in `dashboard.py` to match additional fields or adjust the dashboard logic based on your dataset.
-
-- **Visualizations:**  
-  The charts are created with Plotly Express. Feel free to update their settings (colors, markers, line shapes, etc.) according to your preferences.
-
-
-## Contact
-
-For questions or feedback, please contact:
-
-- **Your Name**  
-- **Email:** your.email@example.com  
-- **GitHub:** [your-username](https://github.com/your-username)
 
