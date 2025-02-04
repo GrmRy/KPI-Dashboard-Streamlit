@@ -8,7 +8,7 @@ st.set_page_config(page_title="Sales Dashboard", layout="wide")
 # Load dataset with caching
 @st.cache_data
 def load_data():
-    return pd.read_csv("/workspaces/KPI-Dashboard-Streamlit/Data/retail_sales_dataset.csv")
+    return pd.read_csv("Data/retail_sales_dataset.csv")
 
 df = load_data()
 
